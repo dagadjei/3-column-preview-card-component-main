@@ -2,4 +2,15 @@
     --orange: rgb(255, 117, 24);
     --middle-color: #007e7e;
     --last-color: #005858;
+    --white: #ffff;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: var(--white);
 }
