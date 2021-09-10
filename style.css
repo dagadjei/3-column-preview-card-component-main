@@ -14,5 +14,6 @@
 
 body{
     background-color: var(--white);
-    font-family: ;
+    font-family: 'Oswald', sans-serif;
+    color: var(--white);
 }
