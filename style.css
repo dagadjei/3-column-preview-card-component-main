@@ -24,4 +24,11 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+}
+.card{
+    border-radius: 0.5rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
 }
