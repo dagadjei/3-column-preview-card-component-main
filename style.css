@@ -43,3 +43,17 @@ p{
 .luxury-column{
     background-color: var(--last-color);
 }
+.card{
+    display: flex;
+    flex-direction: column;
+    font-size: 0.8rem;
+    font-family: 'Lexend Deca', sans-serif;
+    color: var(--clr-text-primary);
+    border-radius: 0.5em;
+    overflow: hidden;
+    width: 90%;
+    max-width: 20rem;
+}
+.column{
+    padding: 4em;
+}
