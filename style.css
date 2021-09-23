@@ -1,36 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
 :root{
-    --orange: rgb(255, 117, 24);
-    --middle-color: #007e7e;
-    --last-color: #005858;
+    --orange: hsl(31, 77%, 52%);
+    --middle-color: hsl(184, 100%, 22%);
+    --last-color: hsl(179, 100%, 13%);
     --white: #ffff;
-}
 
+    --clr-text-primary: hsl(0, 0%, 100%, 0.75);
+    --clr-text-light-gray: hsl(0, 0%, 95%);
+}
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-
 body{
-    background-color: var(--white);
-    font-family: 'Oswald', sans-serif;
-    text-align: center;
-    line-height: 1.5;
-}
-.container{
-    min-height: 100vh;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 4rem 0;
+}
+h1{
+    font-size: 2.7em;
+    text-transform: uppercase;
+    color: var(--clr-text-light-gray);
+}
 
-}
-.card{
-    border-radius: 0.5rem;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    max-width: 25rem;
-    margin: 5.5rem 1.5rem 4rem;
-}
