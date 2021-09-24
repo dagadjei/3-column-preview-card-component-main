@@ -83,6 +83,14 @@ button:hover{
     .card{
         flex-direction: row;
         max-width: 60rem;
-        
+        min-height: 50vh;
+    }
+    .column{
+        position: relative;
+    }
+    .button{
+        position: absolute;
+        bottom: 4em;
+        left: 4em;
     }
 }
