@@ -57,3 +57,32 @@ p{
 .column{
     padding: 4em;
 }
+.icon{
+    display: block;
+    margin-bottom: 2rem;
+}
+button{
+    display: inline-block;
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+    background-color: var(--clr-text-light-gray);
+    border-radius: 1.7em;
+    padding: 1em 2em;
+    mix-blend-mode: screen;
+}
+button:hover{
+    font-weight: 400;
+    color: var(--clr-text-light-gray);
+    background-clip: default;
+    mix-blend-mode: default;
+    background-color: transparent;
+    border: solid 2px var(--clr-text-light-gray); 
+}
+@media(min-width: 1024px){
+    .card{
+        flex-direction: row;
+        max-width: 60rem;
+        
+    }
+}
